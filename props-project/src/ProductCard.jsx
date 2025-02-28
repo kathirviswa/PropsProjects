@@ -76,7 +76,7 @@
   function ProductCard ({image,title,price,Ram,Display,Camera,Battery,Processor,Warrenty}) {
  
     return (
-      <div className="product-card flex w-80 bg-slate-100  overflow-hidden  p-3 shadow-3xl  rounded-2xl box-content">
+      <div className="product-card  flex w-80  bg-slate-100  overflow-hidden  p-3 shadow-3xl  rounded-2xl box-content">
         {/* //Product Card */}
         <div className="product-item ">
           <img
